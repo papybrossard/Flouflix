@@ -1,0 +1,28 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px; 
+    .el-slider {
+      width: 100%;
+    }
+  }
+
+  .filter-item {
+    margin: 1%;
+  }
+
+  .slider {
+    width: 22.5vw;    
+  }
+
+  .rounded-border {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(0, 89, 206, 0.404);
+  }
+
+  .filterButton {
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }

@@ -1,0 +1,58 @@
+.el-carousel__item h3 {
+   color: #475669;
+   opacity: 0.75;
+   line-height: 200px;
+   margin: 0;
+   text-align: center;
+ }
+ 
+ .el-carousel__item:nth-child(2n) {
+   background-color: #6b8ab6;
+ }
+ 
+ .el-carousel__item:nth-child(2n + 1) {
+   background-color: #d3dce6;
+ }
+
+ .carousel {
+   margin-top: 3vh;
+ }
+
+ .carousel-image {
+   height: 10vh;
+ }
+
+ .carousel-title {
+   text-align: center;
+ }
+
+ .carousel-info{
+   display: flex;
+   align-items: center
+ }
+
+ .carousel-info-global {
+   display: flex;
+   align-content: flex-start;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .carousel-rate {
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   margin-top: 3vh;
+ }
+
+ .el-icon {
+   margin-right: 0.5vw;
+ }
+
+ .description {
+  width: 45vw;
+  height: 28vh;
+  margin-top: 2vh;
+  margin-left: 1.8vw;
+  margin-bottom: 1vh;
+ }

@@ -1,0 +1,40 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    .el-slider {
+      width: 100%;
+    }
+  }
+
+  .filter-item {
+    margin: 2vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider {
+    width: 22.5vw;    
+  }
+
+  .rounded-border {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(0, 89, 206, 0.404);
+    margin-top: 5vh;
+    height: 50%;
+    justify-content: center;
+  }
+
+  .coldDescription {
+    margin-top: 2vh;
+    font-weight: bold;
+  }
+
+  .buttonGroup {
+    display: flex;
+    margin: 5vh;
+    margin-bottom: 5vh;
+    justify-content: space-between
+  }

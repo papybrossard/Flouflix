@@ -1,0 +1,30 @@
+.aside-menu {
+  background-color: #0f2f59ff;
+  border: none;
+  width: 75vw;
+  display: block;
+  max-height:15vh;
+}
+
+.aside-menu {
+  background-color: #0f2f59ff;
+  border: none;
+}
+
+.el-menu-item {
+  color: rgb(234, 234, 222);
+  padding: 0;
+  margin: 1vw;
+  max-height: 15vh;
+}
+
+.el-menu--horizontal > .el-menu-item a,
+.el-menu--horizontal > .el-menu-item a:hover {
+  color: inherit;
+  background-color: #0f2f59ff;
+}
+
+.menu-route {
+
+  max-height:15vh;
+}

@@ -1,0 +1,45 @@
+.siteTitle {
+    color: #BEBEBE;
+  }
+  
+  .account {
+    color: #BEBEBE;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #0f2f59ff;
+    text-align: center; 
+    margin:0;
+    justify-content: space-between;
+  }
+  
+  .menu-button {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    display: flex;
+    font-weight: bold;
+    color: #333333;
+
+    margin-left: 1vw;
+  }
+  
+  .logo img {
+    width: 5vw;
+    cursor: pointer;
+  }
+
+  .user-avatar {
+    cursor: pointer;
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+  }
